@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Banking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <div>
+            <nav>
+
+            </nav>
+        </div>
+    </section>
+    <section>
+        
+    </section>
+    <section>
+        <div id="login-area">
+            <div class="text-center text-success">
+                <h1>Welcome to</h1>
+                <h1>MS Online Banking System</h1>
+            </div>
+            <div class="submit-area ">
+                <h4>Login</h4>
+                <input type="email" class="form-control" placeholder="Enter your email here.">
+                <br>
+                <input type="password" class="form-control" name="" id="" placeholder="Enter your password here.">
+                <br>
+                <button id="login-enter" class="btn btn-success">ENTER</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="" id="transaction-area">
+            <h1>Transaction area</h1>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="deposit amount-status">
+                        <h5>Deposit</h5>
+                        <h2>$ <span id="currentDeposit">000</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="withdraw amount-status">
+                        <h5>Withdraw</h5>
+                        <h2>$ <span id="currentWithdraw">000</span></h2>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="balance amount-status">
+                        <h5>Balance</h5>
+                        <h2>$ <span id="currentBalance">1250</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="submit-area">
+                        <h4>Deposit</h4>
+                        <input id="depositAmount" placeholder="$ Amount you want to deposit." class="form-control" type="number">
+                        <br>
+                        <button id="submitDeposit" class="btn btn-success">DEPOSIT</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="submit-area">
+                        <h4>withdraw</h4>
+                        <input id="withdrawAmount" placeholder="$ Amount you want to withdraw." class="form-control" type="number">
+                        <br>
+                        <button id="submitWithdraw" class="btn btn-success">WITHDRAW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="js/code.js"></script>
+<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>
